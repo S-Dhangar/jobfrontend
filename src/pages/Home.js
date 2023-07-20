@@ -12,7 +12,7 @@ const [storyFeeds,setStoryFeeds]=useState([]);
 useEffect(()=>{
     const fetchdata= async()=>{
         try{
-          const response = await axios.get('http://localhost:5000/getfeeds');
+          const response = await axios.get('https://jobbackend-f12u.vercel.app/getfeeds');
 
           
           const filteredArray = response.data.filter(item => item.tag === 'hirings');

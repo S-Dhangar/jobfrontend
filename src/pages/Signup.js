@@ -12,7 +12,7 @@ const Signup= () => {
   const submit = async(e) =>{
 e.preventDefault();
 
-    const data = await fetch('http://localhost:5000/signup',{
+    const data = await fetch('https://jobbackend-f12u.vercel.app/signup',{
         method:"POST",
         headers: {
           "Content-Type": "application/json"

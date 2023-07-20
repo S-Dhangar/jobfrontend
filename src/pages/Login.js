@@ -39,7 +39,7 @@ function Login() {
    
     const LoginUser = async (e) => {
         e.preventDefault();
-        const data = await fetch('http://localhost:5000/signin', {
+        const data = await fetch('https://jobbackend-f12u.vercel.app/signin', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"

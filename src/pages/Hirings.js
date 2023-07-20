@@ -37,7 +37,7 @@ padding:"10px"
 useEffect(()=>{
     const fetchdata= async()=>{
         try{
-          const response = await axios.get('http://localhost:5000/getdata');
+          const response = await axios.get('https://jobbackend-f12u.vercel.app/getdata');
 
           if(window.location.pathname==='/hirings'){
             const filteredArray = response.data.filter(item => item.tag === 'job');
