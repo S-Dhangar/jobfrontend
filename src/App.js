@@ -62,7 +62,7 @@ function App() {
     <footer>
         <div style={footerStyle}>
           
-          <div style={{ color: "black",textAlign:"left",fontSize:"17px"}}>
+          <div style={{ color: "black",textAlign:"left",fontSize:"15px"}}>
           <div>Quick Links</div>
           <div>home</div>
           <div>About</div>
@@ -74,9 +74,9 @@ function App() {
           <div style={{ color: "black",textAlign:"left" }}>
             Contact
           <div>
-             <div style={{marginBottom:"20px",fontSize:"17px"}}><img style={{height:"20px",borderRadius:"25px"}} src={Phone} alt="" /> +91 7067751093</div>
-              <div style={{marginBottom:"20px",fontSize:"17px"}}><img style={{height:"20px",borderRadius:"25px"}} src={Email} alt="" /> bhuvaneshwar@gmail.com</div>
-           <div style={{marginBottom:"20px",fontSize:"17px"}}><img style={{height:"20px",borderRadius:"25px"}} src={Address} alt="" /> Mars, Universe</div>
+             <div style={{marginBottom:"20px",fontSize:"15px"}}><img style={{height:"20px",borderRadius:"25px"}} src={Phone} alt="" /> +91 7067751093</div>
+              <div style={{marginBottom:"20px",fontSize:"15px"}}><img style={{height:"20px",borderRadius:"25px"}} src={Email} alt="" /> bhuvaneshwar@gmail.com</div>
+           <div style={{marginBottom:"20px",fontSize:"175x"}}><img style={{height:"20px",borderRadius:"25px"}} src={Address} alt="" /> Mars, Universe</div>
           </div>
           
           </div>
