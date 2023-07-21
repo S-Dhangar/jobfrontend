@@ -78,16 +78,16 @@ useEffect(()=>{
         </a>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-evenly', marginBottom: '150px', flexWrap: 'wrap', gap: '200px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-evenly', marginBottom: '150px', flexWrap: 'wrap', gap: '150px' }}>
 
 
-        <div style={{overflow: "hidden", padding: "5%", height: "400px", width: "33%", borderRadius: "8px", background: "#FFF", boxShadow: "0px 4px 12px rgba(0, 0, 0, 1)" }}>
+        <div style={{overflow: "hidden", padding: "5%", height: "400px", width: "300px", borderRadius: "8px", background: "#FFF", boxShadow: "0px 4px 12px rgba(0, 0, 0, 1)" }}>
            <h5>{storyFeeds.length===0 ? "" : storyFeeds[0].title}</h5>
             <p style={{ fontSize: "15px" }}>
               { storyFeeds.length===0 ? "" : storyFeeds[0].description}
                </p>
           </div>
-        <div style={{ padding: "5%", overflow: "hidden", height: "400px", width: "33%", borderRadius: "8px", background: "#FFF", boxShadow: "0px 4px 12px rgba(0, 0, 0, 1)" }}>
+        <div style={{ padding: "5%", overflow: "hidden", height: "400px", width: "300px", borderRadius: "8px", background: "#FFF", boxShadow: "0px 4px 12px rgba(0, 0, 0, 1)" }}>
         <h5>{storyFeeds.length===0 ? "" : storyFeeds[1].title}</h5>
 
             <p style={{ fontSize: "15px" }}>
@@ -95,7 +95,7 @@ useEffect(()=>{
 
   </p>
         </div>
-        <div style={{ padding: "5%", overflow: "hidden", height: "400px", width: "33%", borderRadius: "8px", background: "#FFF", boxShadow: "0px 4px 12px rgba(0, 0, 0, 1)" }}>
+        <div style={{ padding: "5%", overflow: "hidden", height: "400px", width: "300px", borderRadius: "8px", background: "#FFF", boxShadow: "0px 4px 12px rgba(0, 0, 0, 1)" }}>
         <h5>{storyFeeds.length===0 ? "" : storyFeeds[2].title}</h5>
 
             <p style={{ fontSize: "15px" }}>

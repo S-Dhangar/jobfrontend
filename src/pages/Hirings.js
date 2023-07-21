@@ -43,7 +43,6 @@ useEffect(()=>{
             const filteredArray = response.data.filter(item => item.tag === 'job');
             setData(filteredArray);
 
-            console.log(filteredArray)
 
           }
           else if(window.location.pathname==='/internships'){

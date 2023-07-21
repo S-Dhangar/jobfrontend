@@ -11,7 +11,7 @@ const Signup= () => {
     }
   const submit = async(e) =>{
 e.preventDefault();
-
+//https://jobbackend-f12u.vercel.app
     const data = await fetch('https://jobbackend-f12u.vercel.app/signup',{
         method:"POST",
         headers: {
