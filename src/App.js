@@ -67,8 +67,8 @@ function App() {
           <div>home</div>
           <div>About</div>
           <div>Contact Us</div>
-          <div>Terms & Consitions</div>
-          <div>Privacy & Policy</div>          
+          <div>T & C</div>
+          <div>Privacy</div>          
           
           </div>
           <div style={{ color: "black",textAlign:"left" }}>
