@@ -26,15 +26,13 @@ useEffect(() => {
 <h3 style={{color:"white"}}>  {props.desc.company + ' - ' + props.desc.profile}
  </h3>
 
-    <p style={{color:"white"}}>
     {   
-    sentences.map((e)=>{
+    sentences.map((e,index)=>{
      
-        return <p>{e}</p>
+        return <p style={{color:"white"}} key={index}>{e}</p>
     })
 
      }
-    </p>
     <Link to ={props.desc.link}>Click here to apply</Link>
     </div>
     </div>

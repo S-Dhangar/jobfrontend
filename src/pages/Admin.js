@@ -24,7 +24,7 @@ const onsubmit =()=>{
         const fetchdata= async()=>{
           try{
           
-              const response = await axios.post('https://jobbackend-f12u.vercel.app/insertdata',data);
+             await axios.post('https://jobbackend-f12u.vercel.app/insertdata',data);
               //const content = await response.json();
           }
           catch(error){
