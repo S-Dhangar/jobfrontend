@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Menu from './pages/menu.png'
 const Navbar = () => {
     
   return (
     <div>
 <nav style={{  borderBottomLeftRadius: "10px",borderBottomRightRadius:"10px"}} className="navbar navbar-expand-lg bg-linear-gradient(to right, #DECBA4, #3E5151)">
-  <button style={{background:"gray",color:"white"}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button style={{color:"white"}} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     
-       Menu
+      <img style={{height:"40px",width:"50px", borderRadius:"8px"}} src={Menu} alt="" />
        
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
