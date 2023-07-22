@@ -15,7 +15,7 @@ borderRadius:"20px",
 padding:"20px"  
 }
 useEffect(() => {
-  setSentences(props.desc.description.split(/\s(?=\d)/));
+  setSentences(props.desc.description.split('\n'));
 }, [props.desc.description]);
 
 

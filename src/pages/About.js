@@ -1,3 +1,4 @@
+import Logo from './logo.png'
 const About = (props) => {
 const style={
   cursor:"pointer",
@@ -13,7 +14,7 @@ padding:"20px"
 
   return (
     <div>
-      <img style={{height:"5rem",width:'5rem',borderRadius:"100px",marginLeft:"42%"}} src="/logo.png" alt="" />
+      <img style={{height:"5rem",width:'5rem',borderRadius:"100px",marginLeft:"42%"}} src={Logo} alt="" />
 
 
 <div style={style}>
@@ -21,9 +22,9 @@ padding:"20px"
     <p style={{color:"white"}}>
 
   
-<h3 style={{color:"black"}}> GRAB IT </h3>is a website started by two students Shubham Dhangar and Bhuvaneshwar Viswvakarma of Sistec college, we are helping out jobseekers and recently passed out students. 
+<h3 style={{color:"black"}}> JobPath </h3>is a website started by us to helping out jobseekers and recently passed out freshers. 
    We provide job information and relevant preparation strategy to the students out there searching jobs in thier respecive
-   fileds and provide news feeds related to jobs.
+   fileds and provide news feeds related to jobs. Be in contact with us for getting awesome jobs, You will surely get whatever is best for you. 
 
      
     </p>

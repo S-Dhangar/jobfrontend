@@ -46,7 +46,7 @@ const onsubmit =()=>{
          <br /> <br /> <br />  <input type="text" name='profile' value={data.profile} onChange={handleInputChange} placeholder='enter profile name' />
          <br /> <br /> <br />  <input type="text" name='type' value={data.type} onChange={handleInputChange} placeholder='enter type - job or intern' />
 
-       <br />  <br /> <br />  <textarea type="text" name='description' value={data.description} onChange={handleInputChange} placeholder='enter job descriptione' />
+       <br />  <br /> <br />  <textarea style={{width:"100%"}} type="text" name='description' value={data.description} onChange={handleInputChange} placeholder='enter job descriptione' />
          <br /> <br />  <input type="text" name='link' value={data.link} onChange={handleInputChange} placeholder='put job application link here' />
 <br />
 <br />

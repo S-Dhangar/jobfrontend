@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Menu from './pages/menu.png'
+import Logo from './pages/logo.png'
 const Navbar = () => {
     
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
     <ul className="navbar-nav">
     <li className="nav-item">
         <Link className="nav-link" to="about">
-          <img style={{height:"50px",width:'50px',borderRadius:"25px"}} src="/logo.png" alt="" />
+          <img style={{height:"50px",width:'50px',borderRadius:"25px"}} src={Logo} alt="" />
           </Link> 
       </li>
       <li className="nav-item">
